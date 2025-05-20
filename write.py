@@ -1,0 +1,6 @@
+f=open("xyz.txt","w")
+f.write("Rudransh\n")
+f.write("Singh\n")
+print("Data written to the file succesfully..")
+f.close()
+print("file is closed:")
