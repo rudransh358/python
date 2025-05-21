@@ -1,14 +1,14 @@
 import csv
-f = open("Student.csv", "w", newline='') 
+f = open("Student.csv", "w", newline='')
 w = csv.writer(f)
 print(type(w))
-w.writerow(["sid", "sname", "sadd"]) 
+w.writerow(["sid", "sname", "sadd"])
 n = int(input("Enter total student number: "))
 for i in range(n):
     id = input("Enter sid: ")
     name = input("Enter sname: ")
     add = input("Enter sadd: ")
-    w.writerow([id, name, add])  
+    w.writerow([id, name, add])
     print("One row inserted..")
 f.close()
 f = open("Student.csv", "r")
