@@ -1,0 +1,6 @@
+f1=open("bmw.jpg","rb")
+f2=open("bmw.jpg","wb")
+bytes=f1.read()
+print(type(bytes))
+f2.write(bytes)
+print("New image is available in my photo.jpg file...")
