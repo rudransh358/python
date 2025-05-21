@@ -7,3 +7,4 @@
 #write a program to display sum of all even number of a given grp of number 
 # wap to create two object using constructer
 # wap to reprsent a multi level inheritnace
+# wap to stundent id ,student name ,student address using write file and the read it 
